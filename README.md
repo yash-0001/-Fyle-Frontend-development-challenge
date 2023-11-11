@@ -1,24 +1,46 @@
-# GithubRepoApp
+# GitHub Repo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+This is an Angular single-page application (SPA) that allows users to input a GitHub username and displays the public repositories of that user.
 
-## Development server
+## How to Run Locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Ensure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://cli.angular.io/) installed.
 
-## Code scaffolding
+2. Clone this repository:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    ```bash
+    git clone <your-repository-url>
+    cd github-repo-app
+    ```
 
-## Build
+3. Install dependencies:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    ```bash
+    npm install
+    ```
 
-## Running unit tests
+4. Run the app:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```bash
+    ng serve
+    ```
 
-## Running end-to-end tests
+5. Open your browser and go to [http://localhost:4200/](http://localhost:4200/) to view the app.
+
+6. Enter a GitHub username in the input field and click "Search" to see the user's public repositories.
+
+## Technologies Used
+
+- Angular
+- TypeScript
+- HTML/CSS
+- GitHub API
+
+## Acknowledgments
+
+- This project was created as a demonstration for educational purposes.
+
+Feel free to modify and enhance the app as needed!
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
